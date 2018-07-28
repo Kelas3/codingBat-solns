@@ -1,11 +1,10 @@
 public boolean canBalance(int[] nums) 
 {
- 
   for(int i = 0; i < nums.length; i++) 
   {
     int x = 0;
     int y = 0;
-     
+   
     for(int k = 0; k < nums.length; k++) 
     {
       if(k > i) {
@@ -20,7 +19,6 @@ public boolean canBalance(int[] nums)
     {
       return true;
     }
-  }
-   
+  }  
   return false;
 }
