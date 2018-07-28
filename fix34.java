@@ -25,7 +25,6 @@ public int findIndex(int[] nums)
         {
             return i;
         }
-    }
-     
+    } 
     return -1;
 }
